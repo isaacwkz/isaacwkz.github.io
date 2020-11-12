@@ -101,7 +101,6 @@ ignore:
 theme: landscape
 
 deploy:
-  type: git
-  repo: https://github.com/isaacwkz/isaacwkz.github.io
-  branch: main
-  message: Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}
+  type: 'git'
+  repo: 'https://github.com/isaacwkz/isaacwkz.github.io'
+  branch: 'main'
